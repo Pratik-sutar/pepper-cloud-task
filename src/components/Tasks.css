@@ -1,0 +1,94 @@
+.formContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.activityContainer {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.activityForm {
+  width: 70%;
+}
+.toDoForm {
+  width: 28%;
+}
+.formInputs {
+  padding-right: 10px !important;
+  width: 100% !important;
+  background-color: #51b07f;
+}
+.textareaBox {
+  height: 200px !important;
+}
+.btnWidth {
+  margin-top: 3%;
+  width: 45% !important;
+}
+.dateInputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+.inputTagsClass {
+  width: 48%;
+  line-height: 0;
+  margin-top: 3%;
+}
+
+.margin6 {
+  margin-top: 6%;
+}
+
+@media only screen and (max-width: 900px) {
+  .activityContainer {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .activityForm {
+    width: 100%;
+  }
+  .toDoForm {
+    margin-top: 5%;
+    width: 100%;
+  }
+  .toDoContent{
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+  }
+  .toDoTasksList{
+    width: 45%;
+  }
+ 
+}
+
+
+@media only screen and (max-width: 600px) {
+    .activityContainer {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .activityForm {
+      width: 100%;
+    }
+    .toDoForm {
+      margin-top: 5%;
+      width: 100%;
+    }
+    .toDoContent{
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: wrap !important;
+    }
+    .toDoTasksList{
+      width: 95%;
+    }
+    .inputTagsClass {
+        width: 100%;
+      }
+  }

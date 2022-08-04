@@ -1,0 +1,173 @@
+body{
+  background-color: #969696;
+}
+.isActive{
+  background-color: #fff !important;
+}
+.activityContainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:3%;
+}
+.stepFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.arrowDiv {
+  display: flex;
+  margin: 5%;
+  width: 170px;
+  background-color: #2fbe6d;
+  height: 40px;
+}
+.ArrowUp {
+  position: relative;
+  top: -15px;
+  left: 141px;
+  width: 20px;
+  height: 49px;
+  transform: rotate(315deg);
+  background-color: #fff;
+}
+.ArrowDown {
+  position: relative;
+  top: 13px;
+  left: 118px;
+  width: 20px;
+  height: 40px;
+  transform: rotate(45deg);
+  background-color: #fff;
+}
+.arrowText {
+  position: relative;
+  text-align: center;
+  top: 7px;
+  left: -10px;
+}
+.arrowTextLast {
+  position: relative;
+  top: 8px;
+  left: 23px;
+}
+
+.arrowEnd {
+  position: relative;
+  left: -14px;
+  top: 5px;
+  height: 28px;
+  width: 28px;
+  background-color: rgb(255, 255, 255);
+  transform: rotate(45deg);
+}
+
+.arrowStart {
+  position: relative;
+  right: -109px;
+  top: 5px;
+  height: 28px;
+  width: 28px;
+  
+  transform: rotate(45deg);
+}
+.bgGreen{
+  background-color: #2fbe6d;
+}
+.bgPink{
+  background-color: #fdf0d4;
+}
+.bgWhite{
+  background-color:#ebebeb
+}
+.bodyBottomBorder{
+  border-bottom: 1px solid #d84545;
+}
+.circleInArrow{
+  position: relative;
+  top: 10px;
+  right: -136px;
+  height: 19px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  border: 1px solid #858585;
+  align-items: center;
+  justify-content:center
+}
+.circleIcon{
+  border-radius:50%;
+}
+.callIconBlue{
+  border:solid 3px #4880ff;
+  color: #4880ff;
+}
+.blueIcon{
+  border: solid 3px #4880ff;
+  color: #4880ff;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 2%;
+}
+.greenIcon{
+  border: solid 3px #7ac47d;
+  color: #7ac47d;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 2%;
+}
+.pinkIcon{
+  border: solid 3px #f79292;
+  color: #f79292;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 2%;
+}
+
+.circleIcon > svg{
+  font-size:15px
+}
+
+.hideText{
+  width:100%;
+  overflow:hidden;
+  display:inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.bg-clr-gold{
+  background-color:#fdf0d4 !important;
+  border-top: 1px  solid #ffb108
+}
+.clr-gold{
+  color:#ffb101;
+}
+.clr-White{
+  background-color:#ffff
+}
+
+@media only screen and (max-width:600px){
+  .stepFlex {
+    flex-wrap:nowrap;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+  }
+}
